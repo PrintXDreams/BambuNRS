@@ -148,6 +148,17 @@ PCB manufacturing files (Gerber, BOM, Pick & Place):
 | GPIO32 | Fan L control (NPN transistor) |
 | GPIO33 | Fan R control (NPN transistor) |
 
+### Structure Files
+
+CNC machining drawings for mechanical parts:
+
+| File | Description | Material |
+|------|-------------|----------|
+| [A-Nozzle Base v1.3A](hardware/structure/A-Nozzle%20Base-v1_3A.pdf) | A-series nozzle assembly base | 6063 Aluminum |
+| [P-Nozzle Base v1.1](hardware/structure/P-Nozzle%20Base-v1_1.pdf) | P-series nozzle assembly base | 6063 Aluminum |
+
+Both parts: CNC machined, anodized finish.
+
 ## Installation
 
 ### Requirements
