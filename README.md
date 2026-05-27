@@ -197,7 +197,7 @@ Both parts: CNC machined, anodized finish.
 ### Nozzle Switching
 
 Long press encoder button (>1.5s) to switch between:
-- `-AH-` = A-series High-temperature nozzle
+- `-AH-` = A/H series nozzle (A1/A1 mini/H2S/H2D/P2)
 - `-PE-` = P/X-series nozzle
 
 The active nozzle is saved to EEPROM.
