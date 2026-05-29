@@ -19,6 +19,9 @@ This project provides a standalone nozzle testing and repair station that allows
 
 ## Hardware
 
+> [!NOTE]
+> Assembly instructions with detailed photos are available in the [Assembly Guide](docs/assembly/assembly.md).
+
 ### Components
 
 | Component | Model | Purpose |
@@ -265,6 +268,10 @@ The `thermistortable_80.h` file contains a lookup table for NTC thermistors comm
 
 ### v1.0 (2025-04)
 - Initial release
+
+## Downloads
+
+- **3D Model**: [BambuNRS on MakerWorld](https://makerworld.com/en/models/2863055-bambunrs) - Printable enclosure and mechanical parts
 
 ## License
 
