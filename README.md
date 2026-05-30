@@ -8,8 +8,18 @@ A DIY nozzle troubleshooting and repair station for Bambu Lab 3D printers (A/P/X
 
 ## Overview
 
-This project provides a standalone nozzle testing and repair station that allows you to:
+The Bambu Nozzle Repair Station (BambuNRS) is a dedicated workstation for testing, cleaning and maintaining Bambu Lab printer nozzles — without tying up your 3D printer.
 
+**Why a dedicated station?**
+- Keep your 3D printer running — perform nozzle maintenance on a separate platform
+- More control — stable base lets you apply proper force for hot/cold pull procedures
+- Full fan control — freely toggle hotend cooling fan during maintenance for maximum assistance
+
+**What you can do with BambuNRS:**
+
+- **Hot/Cold pull maintenance** for nozzle cleaning and replacement
+- **Heat hex wrench unclogging** for heat creep clogs
+- **Cold pull** for thorough hotend cleaning after any unclogging procedure
 - **Test nozzle heating** with PID temperature control
 - **Switch between A/H2S/H2D/P2-series and P1/X1E-series** nozzles
 - **Monitor temperature** via OLED display (P.V. and S.V.)
