@@ -151,6 +151,19 @@ PCB manufacturing files (Gerber, BOM, Pick & Place):
 | GPIO32 | Fan L control (NPN transistor) |
 | GPIO33 | Fan R control (NPN transistor) |
 
+### Hardware Configurations
+
+The same PCB (V2.3) can be assembled into three different mechanical configurations:
+
+| Configuration | Supported Nozzles | Notes |
+|---------------|-------------------|-------|
+| **AP Universal** | A/H2S/H2D/P2 Series + P1/X1E Series | Both nozzle types supported |
+| **A-Type** | A/H2S/H2D/P2 Series only | For A-series only users |
+| **P-Type** | P1/X1E Series only | For P/X-series only users |
+
+> [!NOTE]
+> All three configurations use the same PCB and firmware. The mechanical difference is only in the enclosure/nozzle adapter.
+
 ### Structure Files
 
 CNC machining drawings for mechanical parts:
@@ -161,6 +174,30 @@ CNC machining drawings for mechanical parts:
 | [P-Nozzle Base v1.1](hardware/structure/P-Nozzle%20Base-v1_1.pdf) | P-series nozzle assembly base | 6063 Aluminum |
 
 Both parts: CNC machined, anodized finish.
+
+### 3D Model
+
+- [BambuNRS on MakerWorld](https://makerworld.com/en/models/2863055-bambunrs) — Printable enclosure and mechanical parts
+
+### Gallery
+
+![BambuNRS Overall View](hardware/photos/1-4.png)
+
+More photos available in the [hardware/photos/](hardware/photos/) directory.
+
+| Photo | Description |
+|-------|-------------|
+| [1-1.png](hardware/photos/1-1.png) | Overall view - angle 1 |
+| [1-2.png](hardware/photos/1-2.png) | Overall view - angle 2 |
+| [1-3.png](hardware/photos/1-3.png) | Overall view - angle 3 |
+| [1-4.png](hardware/photos/1-4.png) | Overall view - angle 4 |
+| [2-1.png](hardware/photos/2-1.png) | Back view - 1 |
+| [2-2.png](hardware/photos/2-2.png) | Back view - 2 |
+| [3-1.png](hardware/photos/3-1.png) | Detail - 1 |
+| [3-2.png](hardware/photos/3-2.png) | Detail - 2 |
+| [3-3.png](hardware/photos/3-3.png) | Detail - 3 |
+| [3-4.png](hardware/photos/3-4.png) | Detail - 4 |
+| [5-1.png](hardware/photos/5-1.png) | Full family (AP Universal / A-Type / P-Type) |
 
 ## Installation
 
@@ -268,10 +305,6 @@ The `thermistortable_80.h` file contains a lookup table for NTC thermistors comm
 
 ### v1.0 (2025-04)
 - Initial release
-
-## Downloads
-
-- **3D Model**: [BambuNRS on MakerWorld](https://makerworld.com/en/models/2863055-bambunrs) - Printable enclosure and mechanical parts
 
 ## License
 
