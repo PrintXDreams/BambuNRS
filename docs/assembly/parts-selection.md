@@ -106,6 +106,16 @@
 
 <!-- Notes on PTFE washers -->
 
+### Nylon-Insulated Cord End Terminals (E Series)
+
+**Models:**
+- E0106 — For A-series heating component power wire
+- E0206 — For A-series heating component NTC thermistor wire
+
+![E0106 Terminal](img/e0106-terminal.png)
+
+<!-- Notes on E0106 terminals -->
+
 ---
 
 *Last updated: 2026-06-03*
