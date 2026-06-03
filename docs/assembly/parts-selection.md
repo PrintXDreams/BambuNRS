@@ -33,6 +33,22 @@
 
 <!-- Notes on OLED and rotary encoder -->
 
+### DC-DC Buck Power Module
+
+**Model:** LM2596S Fixed Output 3.3V / LM2596S Fixed Output 5V (P-series only), 3A
+
+![LM2596](img/lm2596-dc-dc-module.png)
+
+<!-- Notes on DC-DC module -->
+
+### DC Cooling Fan (A-series only)
+
+**Model:** 2510, 24VDC, XH2.54 Connector
+
+![DC Fan 2510](img/dc-fan-2510.png)
+
+<!-- Notes on DC fan -->
+
 ## Fasteners and Standard Parts
 
 <!-- Notes on fasteners and standard parts -->
