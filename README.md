@@ -188,7 +188,7 @@ Both parts: CNC machined, anodized finish.
 ### 3D Model
 
 - [BambuNRS on MakerWorld](https://makerworld.com/en/models/2863055-bambunrs) — Printable enclosure and mechanical parts (International)
-- [BambuNRS on MakerWorld (China)](https://makerworld.com.cn/zh/models/2558858-bambunrs) — 3D打印外壳和机械部件（中国）
+- [BambuNRS on MakerWorld (China)](https://makerworld.com.cn/zh/models/2576476-tuo-zhu-pen-zui-wei-xiu-tai) — 3D打印外壳和机械部件（中国）
 
 ### Gallery
 
