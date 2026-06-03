@@ -25,6 +25,14 @@
 
 <!-- Notes on ESP32 -->
 
+### OLED Display + Rotary Encoder Module
+
+**Model:** 0.96" OLED Display + EC11 Rotary Encoder Combo Module with IIC Interface
+
+![OLED+EC11](img/oled-rotary-encoder-module.png)
+
+<!-- Notes on OLED and rotary encoder -->
+
 ## Fasteners and Standard Parts
 
 <!-- Notes on fasteners and standard parts -->
