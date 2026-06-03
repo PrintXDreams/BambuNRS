@@ -76,7 +76,13 @@
 
 ### Flat Head Screws
 
-**Model:** M3×14, Head Diameter 6mm, Head Thickness 1mm — For A-series cooling fan
+**Models:**
+- M3×14, Head Diameter 6mm, Head Thickness 1mm — For A-series cooling fan
+- M3×16, Head Diameter 8mm, Head Thickness 1mm — For P-series hotend base
+
+![M3 Flat Head Screw 16](img/m3-flat-head-screw-16.png)
+
+<!-- Notes on flat head screws -->
 
 ![M3 Flat Head](img/m3-flat-head-screws.png)
 
