@@ -7,14 +7,6 @@
 
 <!-- AP Universal / A-Type / P-Type -->
 
-## 3D Printed Parts
-
-<!-- Notes on 3D printed parts -->
-
-## CNC Machined Parts
-
-<!-- Notes on CNC machined parts -->
-
 ## Electronics
 
 ### ESP32 Development Board
@@ -64,6 +56,14 @@
 ![DC Power 24V5A](img/dc-power-24v5a.png)
 
 <!-- Notes on DC power supply -->
+
+### DC Switch Cable
+
+**Model:** DC 5.5*2.5mm, 5A
+
+![DC Switch Cable](img/dc-switch-cable.png)
+
+<!-- Notes on DC switch cable -->
 
 ## Fasteners and Standard Parts
 
