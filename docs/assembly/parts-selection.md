@@ -49,6 +49,14 @@
 
 <!-- Notes on DC fan -->
 
+### A1 Hotend Heater Component
+
+**Model:** FAH012 (Third-party compatible)
+
+![FAH012](img/fah012-heater.png)
+
+<!-- Notes on A1 hotend heater -->
+
 ## Fasteners and Standard Parts
 
 <!-- Notes on fasteners and standard parts -->
