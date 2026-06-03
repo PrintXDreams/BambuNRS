@@ -67,6 +67,15 @@
 
 ## Fasteners and Standard Parts
 
+### Hexagon Socket Screws (内六角螺丝)
+
+**Models:**
+- M3×15 — For PCB mounting
+- M3×12 — For A-series fan shroud, P-series hotend
+- M3×5 — For OLED display
+
+![M3 Hex Screws](img/m3-hex-screws.png)
+
 <!-- Notes on fasteners and standard parts -->
 
 ---
