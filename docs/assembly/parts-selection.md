@@ -17,7 +17,13 @@
 
 ## Electronics
 
-<!-- Notes on electronics components -->
+### ESP32 Development Board
+
+**Model:** ESP-32-32E
+
+![ESP-32-32E](img/esp32-devkit.png)
+
+<!-- Notes on ESP32 -->
 
 ## Fasteners and Standard Parts
 
