@@ -3,10 +3,6 @@
 > [!NOTE]
 > Work in progress - content will be added incrementally.
 
-## Hardware Configurations
-
-<!-- AP Universal / A-Type / P-Type -->
-
 ## Electronics
 
 ### ESP32 Development Board
@@ -71,12 +67,20 @@
 
 **Models:**
 - M3×15 — For PCB mounting
-- M3×12 — For A-series fan shroud, P-series hotend
+- M3×12 — For A-series cooling fan, fan shroud, P-series hotend
 - M3×5 — For OLED display
 
 ![M3 Hex Screws](img/m3-hex-screws.png)
 
-<!-- Notes on fasteners and standard parts -->
+<!-- Notes on M3 hex screws -->
+
+### Flat Head Screws (扁平头螺丝)
+
+**Model:** M3×14, Head Diameter 6mm, Head Thickness 1mm
+
+![M3 Flat Head](img/m3-flat-head-screws.png)
+
+<!-- Notes on flat head screws -->
 
 ---
 
