@@ -57,6 +57,14 @@
 
 <!-- Notes on A1 hotend heater -->
 
+### DC Power Supply
+
+**Model:** 24V 5A, DC 5.5*2.5mm Connector
+
+![DC Power 24V5A](img/dc-power-24v5a.png)
+
+<!-- Notes on DC power supply -->
+
 ## Fasteners and Standard Parts
 
 <!-- Notes on fasteners and standard parts -->
