@@ -67,16 +67,16 @@
 
 **Models:**
 - M3×15 — For PCB mounting
-- M3×12 — For A-series cooling fan, fan shroud, P-series hotend
+- M3×12 — For A-series fan shroud, P-series hotend
 - M3×5 — For OLED display
 
 ![M3 Hex Screws](img/m3-hex-screws.png)
 
 <!-- Notes on M3 hex screws -->
 
-### Flat Head Screws (扁平头螺丝)
+### Flat Head Screws
 
-**Model:** M3×14, Head Diameter 6mm, Head Thickness 1mm
+**Model:** M3×14, Head Diameter 6mm, Head Thickness 1mm — For A-series cooling fan
 
 ![M3 Flat Head](img/m3-flat-head-screws.png)
 
