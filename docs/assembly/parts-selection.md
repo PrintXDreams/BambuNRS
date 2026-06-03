@@ -88,6 +88,16 @@
 
 <!-- Notes on flat head screws -->
 
+### PTFE High Temperature Washers
+
+**Models:**
+- 3×10×2 — For P-series hotend base
+- 3×6×2 — For P-series hotend base
+
+![PTFE Washers](img/ptfe-washers.png)
+
+<!-- Notes on PTFE washers -->
+
 ---
 
 *Last updated: 2026-06-03*
