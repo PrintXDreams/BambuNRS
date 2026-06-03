@@ -61,6 +61,14 @@
 
 <!-- Notes on DC switch cable -->
 
+### DC Power Socket
+
+**Model:** DC-099, 5.5×2.5, with 10cm wire
+
+![DC Power Socket](img/dc-power-socket.png)
+
+<!-- Notes on DC power socket -->
+
 ## Fasteners and Standard Parts
 
 ### Hexagon Socket Screws (内六角螺丝)
