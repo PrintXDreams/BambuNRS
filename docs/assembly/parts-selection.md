@@ -116,6 +116,16 @@
 
 <!-- Notes on E0106 terminals -->
 
+## Miscellaneous
+
+### Stainless Steel Small Dish (Optional)
+
+**Specs:** Top diameter ~5cm, Bottom diameter ~3cm, Depth 0.5cm
+
+![Stainless Steel Dish](img/stainless-steel-dish.png)
+
+<!-- Notes on stainless steel dish -->
+
 ---
 
-*Last updated: 2026-06-03*
+*Last updated: 2026-06-10*
