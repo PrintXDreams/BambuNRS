@@ -21,7 +21,7 @@ The Bambu Nozzle Repair Station (BambuNRS) is a dedicated workstation for testin
 - **Heat hex wrench unclogging** for heat creep clogs
 - **Cold pull** for thorough hotend cleaning after any unclogging procedure
 - **Test nozzle heating** with PID temperature control
-- **Switch between A/H2S/H2D/P2-series and P1/X1E-series** nozzles
+- **Switch between A/H2S/H2D/P2-series and P1/X1-series** nozzles
 - **Monitor temperature** via OLED display (P.V. and S.V.)
 - **Fine-tune parameters** via Bluetooth serial connection
 - **Detect thermal resistor open circuit** (shows "NC")
@@ -102,9 +102,9 @@ Connect via Bluetooth (device name: `BambuNRS`) to adjust parameters:
 | Series | Voltage | Fan Voltage | Default PID |
 |--------|---------|-------------|-------------|
 | A/H2S/H2D/P2 Series | 24V | 24V | P:60, I:10, D:5 |
-| P1/X1E Series | 24V | 5V | P:60, I:10, D:5 |
+| P1/X1 Series | 24V | 5V | P:60, I:10, D:5 |
 
-**Note:** A/H2S/H2D/P2 series use 24V cooling fans, while P1/X1E series use 5V fans.
+**Note:** A/H2S/H2D/P2 series use 24V cooling fans, while P1/X1 series use 5V fans.
 
 ## Hardware Design
 
@@ -167,9 +167,9 @@ The same PCB (V2.3) can be assembled into three different mechanical configurati
 
 | Configuration | Supported Nozzles | Notes |
 |---------------|-------------------|-------|
-| **AP Universal** | A/H2S/H2D/P2 Series + P1/X1E Series | Both nozzle types supported |
+| **AP Universal** | A/H2S/H2D/P2 Series + P1/X1 Series | Both nozzle types supported |
 | **A-Type** | A/H2S/H2D/P2 Series only | For A-series only users |
-| **P-Type** | P1/X1E Series only | For P/X-series only users |
+| **P-Type** | P1/X1 Series only | For P/X-series only users |
 
 > [!NOTE]
 > All three configurations use the same PCB and firmware. The mechanical difference is only in the enclosure/nozzle adapter.
@@ -233,7 +233,7 @@ More photos available in the [hardware/photos/](hardware/photos/) directory.
 
 ## Safety Warning
 
-> **IMPORTANT:** Always disconnect power before plugging or unplugging the P1/X1E Series nozzle connector. Failure to do so may damage the control board.
+> **IMPORTANT:** Always disconnect power before plugging or unplugging the P1/X1 Series nozzle connector. Failure to do so may damage the control board.
 
 ## Operation
 
