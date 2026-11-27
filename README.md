@@ -106,6 +106,8 @@ Connect via Bluetooth (device name: `BambuNRS`) to adjust parameters:
 
 **Note:** A/H2S/H2D/P2 series use 24V cooling fans, while P1/X1E series use 5V fans.
 
+**Note:** The X1C hotend also uses a 5V fan, but it exposes three discrete connector leads instead of the P1/X1E B2B harness. It therefore needs a different interface board — see [Interface Board V2.0](#community-contribution-interface-board-v20-x1c-support) below.
+
 ## Hardware Design
 
 ### Schematic
@@ -114,22 +116,42 @@ Two PCB designs are available:
 
 | File | Description |
 |------|-------------|
-| [Main Controller V2.3](hardware/Schematic_Bambu-NRS_V2.3.pdf) | Main control board with ESP32, ADS1115, OLED |
-| [Interface Board V1.1](hardware/Schematic_Bambu-NRS_Interface_V1.1.pdf) | Connector board for linking control board to hotend components |
+| [Main Controller V2.3](hardware/circuit/Schematic_Bambu-NRS_V2.3.pdf) | Main control board with ESP32, ADS1115, OLED |
+| [Interface Board V1.1](hardware/circuit/Schematic_Bambu-NRS_Interface_V1.1.pdf) | Connector board for linking control board to hotend components |
 
 ### Fabrication Files
 
 PCB manufacturing files (Gerber, BOM, Pick & Place):
 
 **Main Controller V2.3:**
-- [Gerber](hardware/Gerber_Bambu-NRS_V2.3_PCB_Bambu-NRS_V2.3.zip)
-- [BOM](hardware/BOM_Bambu-NRS_V2.3.csv)
-- [Pick & Place](hardware/PickAndPlace_PCB_Bambu-NRS_V2.3.csv)
+- [Gerber](hardware/circuit/Gerber_Bambu-NRS_V2.3_PCB_Bambu-NRS_V2.3.zip)
+- [BOM](hardware/circuit/BOM_Bambu-NRS_V2.3.csv)
+- [Pick & Place](hardware/circuit/PickAndPlace_PCB_Bambu-NRS_V2.3.csv)
 
 **Interface Board V1.1:**
-- [Gerber](hardware/Gerber_Bambu-NRS_Interface_V1.1_PCB_Bambu-NRS_Interface_V1.1.zip)
-- [BOM](hardware/BOM_Bambu-NRS_Interface_V1.1.csv)
-- [Pick & Place](hardware/PickAndPlace_PCB_Bambu-NRS_Interface_V1.1.csv)
+- [Gerber](hardware/circuit/Gerber_Bambu-NRS_Interface_V1.1_PCB_Bambu-NRS_Interface_V1.1.zip)
+- [BOM](hardware/circuit/BOM_Bambu-NRS_Interface_V1.1.csv)
+- [Pick & Place](hardware/circuit/PickAndPlace_PCB_Bambu-NRS_Interface_V1.1.csv)
+
+### Community Contribution: Interface Board V2.0 (X1C Support)
+
+> [!NOTE]
+> This is a **community contribution**, not an official BambuNRS release. The design is complete, but the board has **not yet been built and tested**.
+
+The Interface Board V1.1 connects to the hotend through the B2B (16P / 20P) harnesses used by the **P1 / X1E** hotend assemblies. The **X1C** hotend uses three discrete leads instead — an MX fan plug, a GH thermistor plug and an XH heater plug — so it needs a different interface board.
+
+[`mf81234/BambuNRS-X1C`](https://github.com/mf81234/BambuNRS-X1C) is a fork of this project that adds an **Interface Board V2.0** with those three extra connectors (CN4 fan / CN5 thermistor / CN6 heater), while keeping the original B2B connectors — so one board covers both the P1/X1E and X1C hotends.
+
+| File (in the fork) | Description |
+|------|-------------|
+| [Schematic_Bambu-NRS_Interface_V2.0.pdf](https://github.com/mf81234/BambuNRS-X1C/blob/main/hardware/circuit/Schematic_Bambu-NRS_Interface_V2.0.pdf) | Interface Board V2.0 schematic |
+| [Gerber (V2.0).zip](https://github.com/mf81234/BambuNRS-X1C/blob/main/hardware/circuit/Gerber_Bambu-NRS_Interface_V2.0_PCB_Bambu-NRS_Interface_V2.0.zip) | PCB manufacturing files |
+| [BOM_Bambu-NRS_Interface_V2.0.csv](https://github.com/mf81234/BambuNRS-X1C/blob/main/hardware/circuit/BOM_Bambu-NRS_Interface_V2.0.csv) | Bill of materials |
+| [PickAndPlace_PCB_Bambu-NRS_Interface_V2.0.csv](https://github.com/mf81234/BambuNRS-X1C/blob/main/hardware/circuit/PickAndPlace_PCB_Bambu-NRS_Interface_V2.0.csv) | Pick & Place data |
+
+**Wiring note:** CN2 (16 P fan) and CN3 (20 P hotend) are pin-for-pin identical to V1.1. On CN1 — the 6-pin link to the main controller — V2.0 keeps the same nets on the same physical pads, but the pin numbering is mirrored: the square pin-1 pad sits at the opposite end of the connector. So if you already built a V1.1, **the 6-wire harness between the interface board and the main controller must be wired in the opposite order** (pin 1 ↔ pin 6). Always wire it from the V2.0 schematic rather than reusing your V1.1 pin order.
+
+If you build one, please report your results — feedback and photos are welcome in the fork's issue tracker.
 
 ### Key Circuit Features
 
