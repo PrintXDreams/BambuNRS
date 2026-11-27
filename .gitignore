@@ -1,2 +1,9 @@
 # Claude Code local settings
 .claude/
+
+# Local review artifacts
+.review/
+
+# MCP config - contains a plaintext Tavily API key, never commit
+.mcp.json
+tavily-mcp-config-guide.md
